@@ -27,5 +27,4 @@ More information to get you started using GRASP can be found in this repo's [wik
 ## Contributing
 
 ### Setting up your development environment
-To build the application, you will require a version of Eclipse, which is called "Eclipse IDE for RCP and RAP Developers" (which can be found here [in the Eclipse instasller](https://www.eclipse.org/downloads/packages/installer) or e.g. [in the AUR](https://wiki.archlinux.org/title/Eclipse)).
-
+To build the application, you will require a version of Eclipse, which is called "Eclipse IDE for RCP and RAP Developers" (which can be found here [in the Eclipse installer](https://www.eclipse.org/downloads/packages/installer) or e.g. [in the AUR](https://wiki.archlinux.org/title/Eclipse)).
