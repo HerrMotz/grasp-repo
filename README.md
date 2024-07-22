@@ -1,17 +1,13 @@
 # grasp-repo
 Code for an experimental graphical SPARQL query builder.
 
-GRASP (GRAphical SParql builder) is written in Java and is built using the Eclipse plugin framework.  Drawing on GEF (legacy), rdf4j and OWL Ontology representations
-(in particular HermiT) it provides a graphical environment where users can create SPARQL queries that align with a given OWL Ontology.  Queries built graphically
-are saved in a JSON-based file format, but can be translated into standard SPARQL and run against a repository of data.  Here it is in operation:
+GRASP (GRAphical SParql builder) is written in Java and is built using the Eclipse plugin framework.  Drawing on GEF (legacy), rdf4j and OWL Ontology representations (in particular HermiT) it provides a graphical environment where users can create SPARQL queries that align with a given OWL Ontology.  Queries built graphically are saved in a JSON-based file format, but can be translated into standard SPARQL and run against a repository of data.  Here it is in operation:
 
 ![GRASP in operation](https://github.com/johnBradley501/grasp-repo/blob/master/misc/grasp.png)
 
-By default GRASP operates against two RDF repositories that are well known to its author (https://romanrepublic.ac.uk/rdf/doc/ and https://www.poms.ac.uk/rdf/doc/) but the aim is to support any RDF repository that has a suitable OWL Ontology that describes it and that operates a SPARQL query engine that
-conforms with W3C standards.
+By default GRASP operates against two RDF repositories that are well known to its author (https://romanrepublic.ac.uk/rdf/doc/ and https://www.poms.ac.uk/rdf/doc/) but the aim is to support any RDF repository that has a suitable OWL Ontology that describes it and that operates a SPARQL query engine that conforms with W3C standards.
 
-There are four Eclipse projects in this repo.  Two of them are provided to support both workspace-oriented file access from within Eclipse and standard file
-access for a standalone version of GRASP:
+There are four Eclipse projects in this repo.  Two of them are provided to support both workspace-oriented file access from within Eclipse and standard file access for a standalone version of GRASP:
 
 * uk.ac.kcl.cch.jb.sparql: the bulk of the code resides here.
 * uk.ac.kcl.cch.jb.sparql.ext: provides a small amount of code that allows GRASP to work with the operating system's standard file access mechanisms.
@@ -27,3 +23,9 @@ Unzip the contents, and place the directory wherever you like.  Inside it you wi
 which is the executable that starts GRASP. GRASP requires at least Java 11 to be set up on your machine.
 
 More information to get you started using GRASP can be found in this repo's [wiki pages](https://github.com/johnBradley501/grasp-repo/wiki).
+
+## Contributing
+
+### Setting up your development environment
+To build the application, you will require a version of Eclipse, which is called "Eclipse IDE for RCP and RAP Developers" (which can be found here [in the Eclipse instasller](https://www.eclipse.org/downloads/packages/installer) or e.g. [in the AUR](https://wiki.archlinux.org/title/Eclipse)).
+
